@@ -1,0 +1,27 @@
+* H:\02. Dokumente\Technical Week 2018\FAE-Simulation-file\03. Time domain simulation\Transient_simulation_Transmission_line.asc
+C2 N008 0 1000p
+R3 N003 N008 75
+C3 N009 0 1000p
+R4 N004 N009 75
+C4 N005 0 0.1µ
+R1 Signal_TD+ N002 50
+R2 N002 Signal_TD- 50
+R5 TD+ N005 50
+R6 N005 TD- 50
+C1 N002 0 0.1µ
+V1 Signal_TD+ N006 PWL file=Signal_1.txt
+O1 TX+ TX- N001 N007 Cat5e
+V3 N006 Signal_TD- PWL file=Signal_1.txt
+XU1 Signal_TD+ N002 Signal_TD- TX- N003 TX+ 749010310
+XU2 N001 N004 N007 TD- N005 TD+ 749010310
+.tran 0 20u 0 0.5µ
+* LAN Cable
+* LAN Transformer 1
+* LAN Transformer 2
+* Signal Input
+* Signal Output
+.model Cat5e LTRA(len={length} R=0.05 L=525n C=52p)
+.param length=1
+.lib WE-LANAQ.lib
+.backanno
+.end

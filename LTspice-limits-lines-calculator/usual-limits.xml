@@ -1,0 +1,372 @@
+<data>
+    <limit begin="150000" end="30000000" measureunit="12" name="C CISPR-32 Class B (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="56" interpolation="2" endValue="46"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="46" interpolation="1" endValue="46"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="50" interpolation="1" endValue="50"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C CISPR-32 Class B (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="66" interpolation="2" endValue="56"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="56" interpolation="1" endValue="56"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55011/22 Class A (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="66" interpolation="1" endValue="66"/>
+        <section endFrequency="30000000" beginFrequency="500000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55011/22 Class A (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="79" interpolation="1" endValue="79"/>
+        <section endFrequency="30000000" beginFrequency="500000" beginValue="73" interpolation="1" endValue="73"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55011/22 Class B (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="56" interpolation="2" endValue="46"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="46" interpolation="1" endValue="46"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="50" interpolation="1" endValue="50"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55011/22 Class B (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="66" interpolation="2" endValue="56"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="56" interpolation="1" endValue="56"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55014-1 C1 (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="59" interpolation="2" endValue="46"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="46" interpolation="1" endValue="46"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="50" interpolation="1" endValue="50"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55014-1 C1 (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="66" interpolation="2" endValue="56"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="56" interpolation="1" endValue="56"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55014-1 C2 (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="70" interpolation="1" endValue="70"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="64" interpolation="1" endValue="64"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="64" interpolation="1" endValue="64"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55014-1 C2 (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="80" interpolation="1" endValue="80"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="74" interpolation="1" endValue="74"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="74" interpolation="1" endValue="74"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55014-1 C3 (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="59" interpolation="2" endValue="49"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="49" interpolation="1" endValue="49"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="54" interpolation="1" endValue="54"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55014-1 C3 (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="66" interpolation="2" endValue="59"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="59" interpolation="1" endValue="59"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="64" interpolation="1" endValue="64"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55014-1 C4 (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="63" interpolation="2" endValue="53"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="53" interpolation="1" endValue="53"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="58" interpolation="1" endValue="58"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55014-1 C4 (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="70" interpolation="2" endValue="63"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="63" interpolation="1" endValue="63"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="68" interpolation="1" endValue="68"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55014-1 C5 (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="69" interpolation="2" endValue="59"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="59" interpolation="1" endValue="59"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="64" interpolation="1" endValue="64"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55014-1 C5 (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="76" interpolation="2" endValue="69"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="69" interpolation="1" endValue="69"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="74" interpolation="1" endValue="74"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 55015 (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="56" interpolation="2" endValue="46"/>
+        <section endFrequency="2510000" beginFrequency="500000" beginValue="46" interpolation="1" endValue="46"/>
+        <section endFrequency="3000000" beginFrequency="2510000" beginValue="63" interpolation="1" endValue="63"/>
+        <section endFrequency="5000000" beginFrequency="3000000" beginValue="46" interpolation="1" endValue="46"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="50" interpolation="1" endValue="50"/>
+    </limit>
+    <limit begin="9000" end="30000000" measureunit="12" name="C EN 55015 (QP)" color="">
+        <description></description>
+        <section endFrequency="50000" beginFrequency="9000" beginValue="110" interpolation="1" endValue="110"/>
+        <section endFrequency="150000" beginFrequency="50000" beginValue="90" interpolation="2" endValue="80"/>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="66" interpolation="2" endValue="56"/>
+        <section endFrequency="2510000" beginFrequency="500000" beginValue="56" interpolation="1" endValue="56"/>
+        <section endFrequency="3000000" beginFrequency="2510000" beginValue="73" interpolation="1" endValue="73"/>
+        <section endFrequency="5000000" beginFrequency="3000000" beginValue="56" interpolation="1" endValue="56"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="10000000" end="30000000" measureunit="12" name="C EN 55016 Class A" color="">
+        <description></description>
+        <section endFrequency="30000000" beginFrequency="10000000" beginValue="73" interpolation="1" endValue="73"/>
+    </limit>
+    <limit begin="10000000" end="30000000" measureunit="12" name="C EN 55016 Class B" color="">
+        <description></description>
+        <section endFrequency="30000000" beginFrequency="10000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 61000-6-3 AC (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="56" interpolation="2" endValue="46"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="46" interpolation="1" endValue="46"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="50" interpolation="1" endValue="50"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 61000-6-3 AC (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="66" interpolation="2" endValue="56"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="56" interpolation="1" endValue="56"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 61000-6-3 DC (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="66" interpolation="1" endValue="66"/>
+        <section endFrequency="30000000" beginFrequency="500000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 61000-6-3 DC (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="79" interpolation="1" endValue="79"/>
+        <section endFrequency="30000000" beginFrequency="500000" beginValue="73" interpolation="1" endValue="73"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 61800-3 C1 (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="56" interpolation="2" endValue="46"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="46" interpolation="1" endValue="46"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="50" interpolation="1" endValue="50"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 61800-3 C1 (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="66" interpolation="2" endValue="56"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="56" interpolation="1" endValue="56"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 61800-3 C2 (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="66" interpolation="1" endValue="66"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="60" interpolation="1" endValue="60"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 61800-3 C2 (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="79" interpolation="1" endValue="79"/>
+        <section endFrequency="30000000" beginFrequency="500000" beginValue="73" interpolation="1" endValue="73"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 61800-3 C3 (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="90" interpolation="1" endValue="90"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="76" interpolation="1" endValue="76"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="80" interpolation="2" endValue="60"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="12" name="C EN 61800-3 C3 (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="100" interpolation="1" endValue="100"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="86" interpolation="1" endValue="86"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="90" interpolation="2" endValue="70"/>
+    </limit>
+    <limit begin="150000" end="30000000" measureunit="13" name="C EN 61800-3 C4 (AVG)" color="#ffff00">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="120" interpolation="1" endValue="120"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="115" interpolation="1" endValue="115"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="105" interpolation="1" endValue="105"/>
+    </limit>
+    <limit begin="1150000" end="30000000" measureunit="12" name="C EN 61800-3 C4 (QP)" color="">
+        <description></description>
+        <section endFrequency="500000" beginFrequency="150000" beginValue="130" interpolation="1" endValue="130"/>
+        <section endFrequency="5000000" beginFrequency="500000" beginValue="125" interpolation="1" endValue="125"/>
+        <section endFrequency="30000000" beginFrequency="5000000" beginValue="115" interpolation="1" endValue="115"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E CISPR-22 Class A @10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="40" interpolation="1" endValue="40"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="47" interpolation="0" endValue="47"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E CISPR-22 Class B @ 10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="30" interpolation="1" endValue="30"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="37" interpolation="0" endValue="37"/>
+    </limit>
+    <limit begin="1000000000" end="6000000000" measureunit="13" name="E CISPR-32 Class A (AVG) @3m >1GHz" color="#ffff00">
+        <description></description>
+        <section endFrequency="3000000000" beginFrequency="1000000000" beginValue="56" interpolation="1" endValue="56"/>
+        <section endFrequency="6000000000" beginFrequency="3000000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="1000000000" end="6000000000" measureunit="13" name="E CISPR-32 Class A (PK) @3m >1GHz" color="#ff0000">
+        <description></description>
+        <section endFrequency="3000000000" beginFrequency="1000000000" beginValue="76" interpolation="1" endValue="76"/>
+        <section endFrequency="6000000000" beginFrequency="3000000000" beginValue="80" interpolation="1" endValue="80"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E CISPR-32 Class A (QP) @10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="40" interpolation="1" endValue="40"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="47" interpolation="1" endValue="47"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E CISPR-32 Class A (QP) @3m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="50" interpolation="1" endValue="50"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="57" interpolation="1" endValue="57"/>
+    </limit>
+    <limit begin="1000000000" end="6000000000" measureunit="13" name="E CISPR-32 Class B (AVG) @3m >1GHz" color="#ffff00">
+        <description></description>
+        <section endFrequency="3000000000" beginFrequency="1000000000" beginValue="50" interpolation="1" endValue="50"/>
+        <section endFrequency="6000000000" beginFrequency="3000000000" beginValue="54" interpolation="1" endValue="54"/>
+    </limit>
+    <limit begin="1000000000" end="6000000000" measureunit="13" name="E CISPR-32 Class B (PK) @3m >1GHz" color="#ff0000">
+        <description></description>
+        <section endFrequency="3000000000" beginFrequency="1000000000" beginValue="70" interpolation="1" endValue="70"/>
+        <section endFrequency="6000000000" beginFrequency="3000000000" beginValue="74" interpolation="1" endValue="74"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E CISPR-32 Class B (QP) @10m" color="">
+        <description></description>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E CISPR-32 Class B (QP) @3m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="40" interpolation="1" endValue="40"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="47" interpolation="1" endValue="47"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 50371 Class A" color="">
+        <description></description>
+        <level frequency="230000000" interpolation="0">50</level>
+        <level frequency="1000000000" interpolation="0">57</level>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 50371 Class B" color="">
+        <description></description>
+        <level frequency="230000000" interpolation="0">40</level>
+        <level frequency="1000000000" interpolation="0">47</level>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 55011 Class A (QP) @10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="40" interpolation="1" endValue="40"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="47" interpolation="1" endValue="47"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 55011 Class A (QP) @30m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="30" interpolation="1" endValue="30"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="37" interpolation="1" endValue="37"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 55011 Class A (QP) @3m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="50" interpolation="1" endValue="50"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="57" interpolation="1" endValue="57"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 55011 Class B (QP) @10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="30" interpolation="0" endValue="30"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="37" interpolation="0" endValue="37"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 55011 Class B (QP) @30m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="20" interpolation="1" endValue="20"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="27" interpolation="1" endValue="27"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 55011 Class B (QP) @3m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="40" interpolation="1" endValue="40"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="47" interpolation="1" endValue="47"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 55014-1 (QP) @10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="30" interpolation="1" endValue="30"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="37" interpolation="1" endValue="37"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 55015 (QP) @10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="30" interpolation="1" endValue="30"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="37" interpolation="1" endValue="37"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 55015 (QP) @3m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="40" interpolation="1" endValue="40"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="47" interpolation="1" endValue="47"/>
+    </limit>
+    <limit begin="30000000" end="10000000000" measureunit="13" name="E EN 55016 Class A (QP) @3m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="50" interpolation="1" endValue="50"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="57" interpolation="1" endValue="57"/>
+        <section endFrequency="10000000000" beginFrequency="1000000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="30000000" end="10000000000" measureunit="13" name="E EN 55016 Class B (QP) @3m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="40" interpolation="1" endValue="40"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="47" interpolation="1" endValue="47"/>
+        <section endFrequency="10000000000" beginFrequency="1000000000" beginValue="54" interpolation="1" endValue="54"/>
+    </limit>
+    <limit begin="1000000000" end="6000000000" measureunit="13" name="E EN 55022 Class A (AVG) @3m" color="#ffff00">
+        <description></description>
+        <section endFrequency="3000000000" beginFrequency="1000000000" beginValue="56" interpolation="1" endValue="56"/>
+        <section endFrequency="6000000000" beginFrequency="3000000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="1000000000" end="6000000000" measureunit="13" name="E EN 55022 Class A (PK) @3m" color="#ff0000">
+        <description></description>
+        <section endFrequency="3000000000" beginFrequency="1000000000" beginValue="76" interpolation="1" endValue="76"/>
+        <section endFrequency="6000000000" beginFrequency="3000000000" beginValue="80" interpolation="1" endValue="80"/>
+    </limit>
+    <limit begin="1000000000" end="6000000000" measureunit="13" name="E EN 55022 Class B (AVG) @3m" color="#ffff00">
+        <description></description>
+        <section endFrequency="3000000000" beginFrequency="1000000000" beginValue="50" interpolation="1" endValue="50"/>
+        <section endFrequency="6000000000" beginFrequency="3000000000" beginValue="54" interpolation="1" endValue="54"/>
+    </limit>
+    <limit begin="1000000000" end="6000000000" measureunit="13" name="E EN 55022 Class B (PK) @3m" color="#ff0000">
+        <description></description>
+        <section endFrequency="3000000000" beginFrequency="1000000000" beginValue="70" interpolation="1" endValue="70"/>
+        <section endFrequency="6000000000" beginFrequency="3000000000" beginValue="74" interpolation="1" endValue="74"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 61000-6-3 (QP) @10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="30" interpolation="1" endValue="30"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="37" interpolation="1" endValue="37"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 61000-6-3 (QP) @3m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="40" interpolation="1" endValue="40"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="47" interpolation="1" endValue="47"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 61800-3 C1 (QP) @10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="30" interpolation="1" endValue="30"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="37" interpolation="0" endValue="37"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 61800-3 C2 (QP) @10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="40" interpolation="1" endValue="40"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="47" interpolation="0" endValue="47"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 61800-3 C3 (QP) @10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="50" interpolation="1" endValue="50"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="13" name="E EN 61800-3 C4 (QP) @10m" color="">
+        <description></description>
+        <section endFrequency="230000000" beginFrequency="30000000" beginValue="50" interpolation="1" endValue="50"/>
+        <section endFrequency="1000000000" beginFrequency="230000000" beginValue="60" interpolation="1" endValue="60"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="9" name="E FCC Class A @10m" color="">
+        <description></description>
+        <section endFrequency="88000000" beginFrequency="30000000" beginValue="9e-05" interpolation="1" endValue="9e-05"/>
+        <section endFrequency="216000000" beginFrequency="88000000" beginValue="0.00015" interpolation="0" endValue="0.00015"/>
+        <section endFrequency="230000000" beginFrequency="216000000" beginValue="0.00021" interpolation="1" endValue="0.00021"/>
+        <section endFrequency="960000000" beginFrequency="230000000" beginValue="0.00021" interpolation="0" endValue="0.00021"/>
+        <section endFrequency="1000000000" beginFrequency="960000000" beginValue="0.0003" interpolation="0" endValue="0.0003"/>
+    </limit>
+    <limit begin="30000000" end="1000000000" measureunit="9" name="E FCC Class B @10m" color="">
+        <description></description>
+        <section endFrequency="88000000" beginFrequency="30000000" beginValue="3.3e-05" interpolation="1" endValue="3.3e-05"/>
+        <section endFrequency="216000000" beginFrequency="88000000" beginValue="5e-05" interpolation="0" endValue="5e-05"/>
+        <section endFrequency="230000000" beginFrequency="216000000" beginValue="6.7e-05" interpolation="0" endValue="6.7e-05"/>
+        <section endFrequency="960000000" beginFrequency="230000000" beginValue="6.7e-05" interpolation="0" endValue="6.7e-05"/>
+        <section endFrequency="1000000000" beginFrequency="960000000" beginValue="0.000167" interpolation="0" endValue="0.000167"/>
+    </limit>
+</data>
