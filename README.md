@@ -18,6 +18,6 @@ If you are also looking for the documentation and gerbers of the hardware demons
 
 ## Libraries of WE component for LTspice 
 
-These files are required to run some of our examples, two versions are available for users without installation rights
+These files are required to run some of our examples, this installer version does not require admin rights
 
 [Library installer files](https://github.com/sylvainlebras/anticipate-emc-with-ltspice/tree/main/LTspice-libraries-installer)
