@@ -1,7 +1,6 @@
 # anticipate-emc-with-ltspice
 Hello, on this repository you will find all the files related to the "Anticipate EMC with LTspice"
 ![Anticipate_EMC](/slides/Slide77.PNG)
-Format: ![Anticipate_EMC](url)
 
 
 If you are also looking for the documentation and gerbers of the hardware demonstrated please have a look to the 
