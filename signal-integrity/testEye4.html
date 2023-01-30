@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,400i,500,500i,600,600i,700,700i|Barlow:300,300i,400,400i,500,500i,600,600i,700,700i|Inter&display=swap" rel="stylesheet">
+<style>
+body {
+  background-color: white;
+}
+
+h1 {
+  color: #636363;
+  margin: 0;
+  font-size: 32px;
+  padding: 0;
+  overflow: hidden;
+  word-wrap: initial;
+  display: inline;
+  font-family: barlow,arial,helvetica,sans-serif;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: barlow;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  color: inherit;
+  list-style: none;
+  color: #636363;
+}
+
+h5 {
+font-weight: 500;
+word-wrap: break-word;
+color: #636363;
+font-size: 14px;
+line-height: 1.428571429;
+color: #636363;
+font-family: Helvetica,Arial,sans-serif;
+
+}
+
+li {
+font-size: 14px;
+color: #636363;
+font-family: Helvetica,Arial,sans-serif;
+--fa-style-family-classic: "Font Awesome 6 Free";
+--fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+
+</style>
+</head>
+<body>
+
+<script>
+function setEye() {
+
+  		eyeWidth = Number(document.getElementById('eyeWidth').value);
+		eyeHeight = Number(document.getElementById('eyeHeight').value);
+		eyeFlatWidth = Number(document.getElementById('eyeFlatWidth').value);
+        centerY = Number(document.getElementById('eyeCenter').value);
+        centerX = Number(document.getElementById('offset').value);
+		
+		ceilingVoltage = Number(document.getElementById('eyeWidth').value);
+		floorVoltage = Number(document.getElementById('eyeWidth').value);
+		
+        output = "";
+		//document.write('<polygon bgcolor=\"orange\" points=\"');
+        output = output +(centerX-(eyeWidth/2)+","+(centerY)+" "); 						// point A	
+        output = output +(centerX-(eyeFlatWidth/2)+","+(centerY+(eyeHeight/2))+" "); 	// point B	
+        output = output +(centerX+(eyeFlatWidth/2)+","+(centerY+(eyeHeight/2))+" "); 	// point C	
+        output = output +(centerX+(eyeWidth/2)+","+centerY+" "); 						// point D	
+        output = output +(centerX+(eyeFlatWidth/2)+","+(centerY-(eyeHeight/2))+" "); 	// point E	
+        output = output +(centerX-(eyeFlatWidth/2)+","+(centerY-(eyeHeight/2))); 		// point F	
+        //document.write('"/>');
+      	document.getElementById('demo').setAttribute('points', output);
+      	setLTSpiceText();
+      	
+}
+</script>
+
+<script>
+function setMask1() {
+
+  		eyeWidth = Number(document.getElementById('eyeWidth').value);
+		eyeHeight = Number(document.getElementById('eyeHeight').value);
+		eyeFlatWidth = Number(document.getElementById('eyeFlatWidth').value);
+        centerY = Number(document.getElementById('eyeCenter').value);
+        centerX = Number(document.getElementById('offset').value);
+		
+		ceilingVoltage = Number(document.getElementById('eyeWidth').value);
+		floorVoltage = Number(document.getElementById('eyeWidth').value);
+		
+        output = "";
+		//document.write('<polygon bgcolor=\"orange\" points=\"');
+        output = output +(centerX-(eyeWidth/2)+","+(centerY)+" "); 						// point A	
+        output = output +(centerX-(eyeFlatWidth/2)+","+(centerY+(eyeHeight/2))+" "); 	// point B	
+        output = output +(centerX+(eyeFlatWidth/2)+","+(centerY+(eyeHeight/2))+" "); 	// point C	
+        output = output +(centerX+(eyeWidth/2)+","+centerY+" "); 						// point D	
+        output = output +(centerX+(eyeFlatWidth/2)+","+(centerY-(eyeHeight/2))+" "); 	// point E	
+        output = output +(centerX-(eyeFlatWidth/2)+","+(centerY-(eyeHeight/2))); 		// point F	
+        //document.write('"/>');
+      	document.getElementById('demo').setAttribute('points', output);
+      	setLTSpiceText();
+      	
+}
+</script>
+
+<script>
+function setPreset( preset) {
+
+		presetBaudrates = [9600,115200,9600,115200,1500000,12000000,12000000,480000000,1000000000,10000000,100000000,1000000000,1000,1000000,250000000,250000000];
+		presetEyeFlatWidth = [90000,6000,90000,6000,500,40,40,1,0,0,0,0,0,0,2,1];
+		presetOffset = [0,0,0,2000,0,0,0,0,0.1,0,0,0,0,0,0,0];
+		presetEyeHeight = [6000,6000,400,400,3000,2500,5000,500,100,0,0,0,0,0,300,1500];
+		presetEyeCenter = [0,0,0,0,1650,1650,0,0,0,0,0,0,0,0,0,1650];
+		presetEyeWidth = [100000,7000,100000,7000,600,60,60,1.5,0.06,0,0,0,60,6,3,3];
+
+        //document.write('"/>');
+      	document.getElementById('baudrate').setAttribute('value', presetBaudrates[preset]);
+		document.getElementById('eyeFlatWidth').setAttribute('value', presetEyeFlatWidth[preset]);
+		document.getElementById('eyeWidth').setAttribute('value', presetEyeWidth[preset]);
+		document.getElementById('offset').setAttribute('value', presetOffset[preset]);
+		document.getElementById('eyeHeight').setAttribute('value', presetEyeHeight[preset]);
+		document.getElementById('eyeCenter').setAttribute('value', presetEyeCenter[preset]);
+		
+		setEye();
+      	
+}
+</script>
+
+<script>
+function setLTSpiceText() {
+		//time variables
+		
+  		eyeWidth = Number(document.getElementById('eyeWidth').value);
+		eyeHeight = Number(document.getElementById('eyeHeight').value);
+		eyeFlatWidth = Number(document.getElementById('eyeFlatWidth').value);
+        centerY = Number(document.getElementById('eyeCenter').value);
+        centerX = Number(document.getElementById('offset').value);
+        
+        baudrate = Number(document.getElementById('baudrate').value);
+        
+		eyesAfter = Number(document.getElementById('eyesAfter').value);
+		eyesBefore = Number(document.getElementById('eyesBefore').value);
+		
+		eyeWidth = eyeWidth / 1E+9;
+		eyeFlatWidth = eyeFlatWidth / 1E+9;
+		offsetX = centerX / 1E+9;
+		
+		
+		centerY = centerY /1000;
+		eyeHeight = eyeHeight / 1000;
+		
+		ceilingVoltage = Number(document.getElementById('eyeWidth').value);
+		floorVoltage = Number(document.getElementById('eyeWidth').value);
+		
+		lineStart = "Line: \"V\" 13 1";
+		lineEnd =  ")\n";
+		
+		output = "";
+		i = 0;
+		
+		for (let i = -eyesBefore ; i <= eyesAfter; i++) {
+
+	        centerX = (i * (1/baudrate)) + offsetX;
+	        
+			//document.write('<polygon bgcolor=\"orange\" points=\"');
+									// point A									//Point B
+	        output = output + lineStart +" ("+(centerX-(eyeWidth/2))+","+(centerY)+") ("+(centerX-(eyeFlatWidth/2)+","+(centerY+(eyeHeight/2))+lineEnd);
+									// point B									//Point C        
+	        output = output + lineStart +" ("+ (centerX-(eyeFlatWidth/2)) +","+ (centerY+(eyeHeight/2)) +") ("+ (centerX+(eyeFlatWidth/2)) +","+ (centerY+(eyeHeight/2)) + lineEnd;
+	        						// point C									//Point D
+	        output = output + lineStart +" ("+ (centerX+(eyeFlatWidth/2)) +","+ (centerY+(eyeHeight/2)) +") ("+ (centerX+(eyeWidth/2)) +","+centerY +lineEnd;
+	        						// point D									//Point E
+	        output = output + lineStart +" ("+ (centerX+(eyeWidth/2))+","+centerY+") ("+ (centerX+(eyeFlatWidth/2)) +","+ (centerY-(eyeHeight/2)) + lineEnd;
+	        						// point E									//Point F
+	        output = output + lineStart +" ("+ (centerX+(eyeFlatWidth/2)) +","+ (centerY-(eyeHeight/2)) +") ("+ (centerX-(eyeFlatWidth/2)) +","+ (centerY-(eyeHeight/2)) +lineEnd;
+	                				// point F									//Point A
+	        output = output + lineStart +" ("+ (centerX-(eyeFlatWidth/2)) +","+ (centerY-(eyeHeight/2)) +") ("+ (centerX-(eyeWidth/2)) +","+ (centerY) +lineEnd;
+	        
+		} 
+		
+        //document.write('"/>');
+      	document.getElementById('ltText').innerHTML = output;
+}
+</script>
+
+<h1>LTspice - Eye Diagram generation tool beta 12/2022</h1>
+
+<table border=1px>
+
+<tr>
+<form action="">
+<td colspan=5>
+
+	<h4>Pre-Defined Eyes</h4>
+  	<li><b>Pick a preset to generate text ready to copy and paste in your LTSpice plot settings file</b><br/>
+	<input type="radio" id="RS485" name="preset" value="1" onclick="setPreset(0)"><label for="html">RS232-9600</label><br>
+	<input type="radio" id="RS485" name="preset" value="2" onclick="setPreset(1)"><label for="html">RS232-115200</label><br>
+	<input type="radio" id="RS485" name="preset" value="3" onclick="setPreset(2)"><label for="html">RS485-9600-Differential Voltage</label><br>
+	<input type="radio" id="RS485" name="preset" value="4" onclick="setPreset(3)"><label for="html">RS485-115200-Differential Voltage</label><br>
+	<input type="radio" id="RS485" name="preset" value="5" onclick="setPreset(4)"><label for="html">USB 1 Low Speed</label><br>
+	<input type="radio" id="RS485" name="preset" value="6" onclick="setPreset(5)"><label for="html">USB 1 Full Speed</label><br>
+	<input type="radio" id="RS485" name="preset" value="7" onclick="setPreset(6)"><label for="html">USB 2 Full Speed - Differential </label><br>
+	<!-- <input type="radio" id="RS485" name="preset" value="8" onclick="setPreset(7)"><label for="html">USB 2 High Speed - Differential </label><br>
+	<input type="radio" id="RS485" name="preset" value="9" onclick="setPreset(8)"><label for="html">USB 3 - Differential</label><br>
+	<input type="radio" id="RS485" name="preset" value="10" onclick="setPreset(9)"><label for="html">Ethernet 10M</label><br> 
+	<input type="radio" id="RS485" name="preset" value="11" onclick="setPreset(10)"><label for="html">Ethernet 100M</label><br>
+	<input type="radio" id="RS485" name="preset" value="12" onclick="setPreset(11)"><label for="html">Ethernet 1G</label><br> -->
+	<input type="radio" id="RS485" name="preset" value="13" onclick="setPreset(12)"><label for="html">SPE 10M</label><br>
+	<input type="radio" id="RS485" name="preset" value="14" onclick="setPreset(13)"><label for="html">SPE 100M</label><br>
+	<input type="radio" id="RS485" name="preset" value="15" onclick="setPreset(14)"><label for="html">LVDS 250 LV</label><br>
+	<input type="radio" id="RS485" name="preset" value="16" onclick="setPreset(15)"><label for="html">LVDS 250 HV</label><br>
+	</li>
+    
+</td>
+</tr>
+<tr>
+<td>
+  <h4><label for="fname">Baudrate</label><br></h4>
+  <input type="text" id="baudrate" value="115200"><br>
+  <h4><label for="lname">Eyes before</label><br></h4>
+  <input type="text" id="eyesBefore" name="lname" value="1"><br>
+  <h4><label for="lname">Eyes after</label><br></h4>
+  <input type="text" id="eyesAfter" name="lname" value="3"><br>
+</td>
+<!--
+<td>
+  <h4><label for="fname">Ceiling Voltage</label><br></h4>
+  <input type="text" id="fname" name="fname" value="6"><br>
+  <h4><label for="lname">Floor Voltage</label><br></h4>
+  <input type="text" id="lname" name="lname" value="-1"><br>
+  <h4><label for="lname">Center Voltage</label><br></h4>
+  <input type="text" id="centerX" name="lname" value="3"><br>
+</td>
+-->
+<td>
+  <h4><label for="fname">Eye Width [ns]</label><br></h4>
+  <input type="text" id="eyeWidth" name="fname" value="7000"><br>
+  <h4><label for="lname">Eye Flat Width [ns]</label><br></h4>
+  <input type="text" id="eyeFlatWidth" name="lname" value="6000"><br>
+  <h4><label for="lname">Offset [ns]</label><br></h4>
+  <input type="text" id="offset" name="lname" value="2000"><br>
+</td>
+<td>
+  <h4><label for="fname">Eye Height (mV)</label><br></h4>
+  <input type="text" id="eyeHeight" name="fname" value="2500"><br>
+  <h4><label for="lname">Eye Center (mV) </label><br></h4>
+  <input type="text" id="eyeCenter" name="lname" value="2500"><br>
+</td>
+<td>
+  <input type="button" onclick="setEye()" value="Update">
+</td>
+</tr>
+</form> 
+
+<tr>
+<td colspan=5>
+<textarea id="ltText" rows="30" cols="100">
+Text For LTSpice
+</textarea> 
+</td>
+</tr>
+<tr>
+<td colspan=5>
+
+
+
+<svg width="1000" height="500" viewBox="-3000 0 7000 5000">   
+    <polygon bgcolor="orange" id="demo"
+    points="
+    100,250
+    150,150
+    450,150
+    500,250
+    450,350
+    150,350"/>
+   	Sorry, your browser does not support inline SVG.
+	</svg> 
+    
+</td>
+</tr>
+</table>
+
+</body>
+</html>
